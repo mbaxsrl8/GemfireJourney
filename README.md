@@ -23,8 +23,9 @@ kubectl -n NAMESPACE apply -f  loadbalancer.yaml
 Start `gfsh` command
 #### Connect to k8s Gemfire cluster
 ``` shell
-gfsh>connect --locator --use-http=true --url=https://EXTERNAL-IP:7070/gemfire/v1 --skip-ssl-validation
+gfsh> connect --locator --use-http=true --url=https://EXTERNAL-IP:7070/gemfire/v1 --skip-ssl-validation
 ```
+#### Start Pulse from local
 ``` shell
 gfsh> start pulse
 ```
