@@ -17,4 +17,4 @@ spec:
   type: LoadBalancer
   externalIPs:
   # your minikube ip -> minikube ip
-  - 172.23.24.105
+  - EXTERNAL-IP
